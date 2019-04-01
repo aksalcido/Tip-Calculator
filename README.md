@@ -21,8 +21,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Custom Tip Percentage from User Input
-- [ ] Displays total and cost between up to a party of four
+- [x] Custom Tip Percentage from User Input
+- [x] Displays total and cost between up to a party of four
 
 ## Video Walkthrough 
 
@@ -35,10 +35,14 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+    1) Constraint errors
+    2) SIGTERM signals being caught by debugger after builds.
+    3) Confusion at times while navigating Xcode interface.
+    4) Keyboard glitch while running.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Armando Salcido]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
